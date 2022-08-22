@@ -3,6 +3,7 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .navbar-brand{
@@ -21,7 +22,13 @@
 }
 
 /* -----------SECCION PRINCIPAL-------------- */
-
+.main__title{
+    font-size: 4em;
+}
+.main__parraf{
+    font-size: 1.2em;
+    text-align:justify;
+}
 .seccion-home{
     background:rgba(0, 0, 0, 0.1);
 }
@@ -29,6 +36,7 @@
     font-family: Georgia, Times, 'Times New Roman', serif;
     display: flex;
     justify-content: space-evenly;
+    padding: 20px;
 }
 .card-body{
     display:flex;
@@ -271,37 +279,49 @@ grid-area: img1;
 
 .cards{
    display: flex;
-   justify-content: space-evenly;
-   gap:20px;
+   justify-content: space-around;
+   gap:50px;
    margin:20px;
     
 }
-.cards__body{
-    padding:20px;
-    width: 200px;
-    border:1px solid #181818;
-    overflow: hidden;
-    box-shadow: 0 0 7px rgba(18,18,18, 0.5);
+.cards-productos{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.cards__title{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size:22px;
-}
-.fa-cart-shopping{
-    font-size: 1em;
-    flex:0 0 1;
-    
-}
+
+
 .img-card{
     width: 100%;
     object-fit: cover;
+    height: 300px;
 }
 .cards__img{
     width: 200px;
+    object-fit: cover;
 }
+
+@media screen and (max-width:768px){
+    .img-card{
+        height: auto;
+        object-fit: cover;
+        display: flex;
+}
+.main__title{
+    font-size: 2.5em;
+}
+.cards-productos{
+    font-size: 1.5em;
+}
+.container{
+    border-bottom:2px solid #ccc;
+    
+}
+
+}
+
+    
+    
 
 /* --------------CSS archivo Info------------------ */
 
@@ -430,6 +450,16 @@ grid-row: 12/13;
     }
 }
 
+/* --------------CSS archivo Contacto-------------------- */
+
+.contacto-img{
+    width: 100%;
+}
+.bg{
+    background-image: url(../img/producto-jeans7.jpg);
+    background-position: center center;
+    background-size: cover;
+}
 
 /* -------------- CSS de archivo Sobre Nosotros--------------- */
 .mainn{
@@ -462,6 +492,14 @@ grid-row: 12/13;
 .col-md-6{
     padding-left: 0;
     padding-right: 0;
+}
+@media screen and (max-width:768px){
+    .bg-white-top{
+        border-bottom:2px solid #ccc;
+    }
+    .end-col{
+        margin-bottom:2em;
+    }
 }
 
 
