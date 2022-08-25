@@ -1,0 +1,77 @@
+.title-rs {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+
+
+    .main-reseñas {
+        background: rgba(0, 0, 0, 0.1);
+        .reseñas {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-rows: repeat(13, 1fr); 
+            .reseñas__contenedor-iz-1 {
+                grid-column: 1/6;
+                grid-row: 1/2; }
+              
+              .reseñas__contenedor-de-2 {
+                grid-column: 8/12;
+                grid-row: 2/3; }
+              
+              .reseñas__contenedor-iz-3 {
+                grid-column: 1/6;
+                grid-row: 3/4; }
+              
+              .reseñas__contenedor-de-4 {
+                grid-column: 8/12;
+                grid-row: 4/5; }
+              
+              .reseñas__contenedor-iz-5 {
+                grid-column: 1/6;
+                grid-row: 5/6; }
+              
+              .reseñas__contenedor-de-6 {
+                grid-column: 8/12;
+                grid-row: 6/7; }
+              
+              .reseñas__contenedor-iz-7 {
+                grid-column: 1/6;
+                grid-row: 7/8; }
+              
+              .reseñas__contenedor-de-8 {
+                grid-column: 8/12;
+                grid-row: 8/9; }
+              
+              .reseñas__contenedor-iz-9 {
+                grid-column: 1/6;
+                grid-row: 9/10; }
+              
+              .reseñas__contenedor-de-10 {
+                grid-column: 8/12;
+                grid-row: 10/11; }
+              
+              .reseñas__contenedor-iz-11 {
+                grid-column: 1/6;
+                grid-row: 11/12; }
+              
+              .reseñas__contenedor-de-12 {
+                grid-column: 8/12;
+                grid-row: 12/13; }
+            
+            &__img {
+                padding: 10px;
+                margin: 1rem;
+                border: 0.2px solid #c43a3a;
+                box-shadow: 0 0 7px rgba(18, 18, 18, 0.5); }
+        }
+
+     }
+
+     .questions {
+        grid-column: 4/11;
+        grid-row: 13/14;
+        margin-bottom: 4em; }
+        
+        .h2-title {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+
+
+    

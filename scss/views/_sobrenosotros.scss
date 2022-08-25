@@ -1,0 +1,27 @@
+.mainn {
+    background-image: linear-gradient(#ccd1, #1bc1, #181818, black); 
+    .title-sn {
+        font-size: 5em; }
+        .bg-white {
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .gray {
+                color: #877B7A;
+                font-size: 0.9rem; }
+        }
+        .bg-gray {
+            background-color: #F4F4F4; }
+            .bg-dark-gray {
+                background-color: #1E1F23; 
+                .bg-dark-gray2 {
+                    background-color: #121315; }
+                    .col-md-6 {
+                        padding-left: 0;
+                        padding-right: 0; }
+                }
+
+
+}

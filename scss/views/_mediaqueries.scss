@@ -1,0 +1,69 @@
+/* MEDIA archivo home */
+@media screen and (max-width: 768px) {
+    .titulo-h1 {
+      font-size: 1.5em; }
+    .cards-home {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+    .iconos {
+      display: flex;
+      flex-direction: column; }
+    .icon {
+      margin: 10px; }
+    .footer {
+      display: flex;
+      flex-direction: column; }
+    .footer__title {
+      font-size: 3em;
+      margin: 30px auto; }
+    .footer__pf {
+      margin: 10px auto;
+      text-align: center; }
+    .footer__redes {
+      margin: 10px auto; } }
+
+      /* MEDIA archivo Productos */
+
+      @media screen and (max-width: 768px) {
+        .img-card {
+          height: auto;
+          object-fit: cover;
+          display: flex; }
+        .main__title {
+          font-size: 2.5em; }
+        .cards-productos {
+          font-size: 1.5em; }
+        .container {
+          border-bottom: 2px solid #ccc; } }
+
+      /* MEDIA archivo reseñas */
+      @media screen and (max-width: 768px) {
+        .reseñas {
+          display: grid;
+          grid-template-columns: repeat(1, 1fr); }
+        .reseñas__img {
+          width: 300px; }
+        .reseñas__contenedor {
+          margin: 10px auto; }
+         }
+      
+      @media screen and (max-width: 992px) {
+        .reseñas {
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+          grid-template-rows: repeat(12, 1fr); }
+        .reseñas__img {
+          width: 400px; }
+        .reseñas__contenedor {
+          margin: 10px auto; }
+        .questions {
+          display: none; } 
+        }
+
+          /* MEDIA archivo Sobre Nosotros */
+          @media screen and (max-width: 768px) {
+            .bg-white-top {
+              border-bottom: 2px solid #ccc; }
+            .end-col {
+              margin-bottom: 2em; } }
