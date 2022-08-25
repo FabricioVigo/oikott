@@ -20,10 +20,8 @@
             justify-content: space-evenly;
             padding: 20px; }
             .card-body {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: space-between; }
+              @include flex (column, space-between, center);
+                 }
                 .card-text {
                     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
                     color: grey;
@@ -39,8 +37,9 @@
                             text-align: center; }
                           
                           .icon {
-                            display: flex;
-                            flex-direction: column; }
+                            @include flex (column,none,none);
+                            /* display: flex;
+                            flex-direction: column; */ }
                           
                           .icon__h3 {
                             color: #ccc;
