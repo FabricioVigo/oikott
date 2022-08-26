@@ -23,6 +23,30 @@
     .footer__redes {
       margin: 10px auto; } }
 
+      @media screen and (max-width: 1080px) {
+        .titulo-h1 {
+          font-size: 1.5em; }
+        .cards-home {
+          @include flex (column, center, center);
+           }
+        .iconos {
+         display: flex;
+        flex-direction: column;
+        }
+        .icon {
+          margin: 10px; }
+        .footer {
+          display: flex;
+          flex-direction: column; }
+        .footer__title {
+          font-size: 3em;
+          margin: 30px auto; }
+        .footer__pf {
+          margin: 10px auto;
+          text-align: center; }
+        .footer__redes {
+          margin: 10px auto; } }
+
       /* MEDIA archivo Productos */
 
       @media screen and (max-width: 768px) {
@@ -36,6 +60,15 @@
           font-size: 1.5em; }
         .container {
           border-bottom: 2px solid #ccc; } }
+
+          @media screen and (max-width:1080px){
+            .main__title{
+              font-size: $text-medium;
+            }
+            .container{
+              border-bottom: 2px solid $color-secondary;
+            }
+          }
 
       /* MEDIA archivo reseñas */
       @media screen and (max-width: 768px) {
@@ -70,3 +103,11 @@
               border-bottom: 2px solid #ccc; }
             .end-col {
               margin-bottom: 2em; } }
+
+              
+              @media screen and (max-width: 1080px) {
+                .img-sb{
+                  height: 100%;
+                  object-fit: cover;
+                }
+                 }
